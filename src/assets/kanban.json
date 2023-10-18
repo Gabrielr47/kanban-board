@@ -1,0 +1,1130 @@
+{
+    "aggregations": [
+        {
+            "field_key": "sys_status",
+            "items": [
+                {
+                    "key": "Pending2",
+                    "label": null,
+                    "count": 9,
+                    "unfiltered_count": 9,
+                    "sub_aggregations": null
+                },
+                {
+                    "key": "Closed",
+                    "label": null,
+                    "count": 8,
+                    "unfiltered_count": 8,
+                    "sub_aggregations": null
+                },
+                {
+                    "key": "Resolved",
+                    "label": null,
+                    "count": 4,
+                    "unfiltered_count": 4,
+                    "sub_aggregations": null
+                },
+                {
+                    "key": "Open",
+                    "label": null,
+                    "count": 1,
+                    "unfiltered_count": 1,
+                    "sub_aggregations": null
+                }
+            ],
+            "warning_message": null
+        },
+        {
+            "field_key": "brand",
+            "items": [
+                {
+                    "key": "AudioQuest",
+                    "label": null,
+                    "count": 3,
+                    "unfiltered_count": 3,
+                    "sub_aggregations": null
+                }
+            ],
+            "warning_message": null
+        }
+    ],
+    "pagination": {
+        "item_count_total": 22,
+        "item_count_filtered": 22,
+        "item_count_returned": 0,
+        "pages_total": 0,
+        "pages_current": 0,
+        "take_current": 0
+    },
+    "data": {
+        "swimlanes": [
+            {
+                "field": "sys_status",
+                "key": 7,
+                "label": "Closed"
+            },
+            {
+                "field": "sys_status",
+                "key": 4,
+                "label": "Open"
+            },
+            {
+                "field": "sys_status",
+                "key": 692,
+                "label": "Pending2"
+            }
+        ],
+        "columns": [
+            {
+                "field": "brand",
+                "key": 111,
+                "label": "Argon Audio"
+            },
+            {
+                "field": "brand",
+                "key": 113,
+                "label": "AudioQuest"
+            },
+            {
+                "field": "brand",
+                "key": 122,
+                "label": "Bang & Olufsen"
+            },
+            {
+                "field": "brand",
+                "key": 116,
+                "label": "Bluesound"
+            },
+            {
+                "field": "brand",
+                "key": 120,
+                "label": "Bowers & Wilkins"
+            },
+            {
+                "field": "brand",
+                "key": 119,
+                "label": "BURSON AUDIO"
+            },
+            {
+                "field": "brand",
+                "key": 118,
+                "label": "Cyp"
+            },
+            {
+                "field": "brand",
+                "key": 121,
+                "label": "DALI"
+            },
+            {
+                "field": "brand",
+                "key": 112,
+                "label": "Denon"
+            },
+            {
+                "field": "brand",
+                "key": 135,
+                "label": "Epson"
+            },
+            {
+                "field": "brand",
+                "key": 136,
+                "label": "Euroscreen"
+            },
+            {
+                "field": "brand",
+                "key": 117,
+                "label": "HEGEL"
+            },
+            {
+                "field": "brand",
+                "key": 127,
+                "label": "LEMUS"
+            },
+            {
+                "field": "brand",
+                "key": 115,
+                "label": "Lyngdorf"
+            },
+            {
+                "field": "brand",
+                "key": 131,
+                "label": "MoFi Electronics"
+            },
+            {
+                "field": "brand",
+                "key": 110,
+                "label": "NAD"
+            },
+            {
+                "field": "brand",
+                "key": 134,
+                "label": "Optoma"
+            },
+            {
+                "field": "brand",
+                "key": 132,
+                "label": "Philips"
+            },
+            {
+                "field": "brand",
+                "key": 123,
+                "label": "Pro-Ject"
+            },
+            {
+                "field": "brand",
+                "key": 129,
+                "label": "Samsung"
+            },
+            {
+                "field": "brand",
+                "key": 124,
+                "label": "Sennheiser"
+            },
+            {
+                "field": "brand",
+                "key": 114,
+                "label": "Sonos"
+            },
+            {
+                "field": "brand",
+                "key": 133,
+                "label": "Sony"
+            },
+            {
+                "field": "brand",
+                "key": 126,
+                "label": "SOUNDBOKS"
+            },
+            {
+                "field": "brand",
+                "key": 128,
+                "label": "SOWA"
+            },
+            {
+                "field": "brand",
+                "key": 130,
+                "label": "Steinway Lyngdorf"
+            },
+            {
+                "field": "brand",
+                "key": 668,
+                "label": "test"
+            },
+            {
+                "field": "brand",
+                "key": 125,
+                "label": "Vestlyd"
+            }
+        ],
+        "groups": [
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 111,
+                    "label": "Argon Audio"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 113,
+                    "label": "AudioQuest"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 122,
+                    "label": "Bang & Olufsen"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 116,
+                    "label": "Bluesound"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 120,
+                    "label": "Bowers & Wilkins"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 119,
+                    "label": "BURSON AUDIO"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 118,
+                    "label": "Cyp"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 121,
+                    "label": "DALI"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 112,
+                    "label": "Denon"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 135,
+                    "label": "Epson"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 136,
+                    "label": "Euroscreen"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 117,
+                    "label": "HEGEL"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 127,
+                    "label": "LEMUS"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 115,
+                    "label": "Lyngdorf"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 131,
+                    "label": "MoFi Electronics"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 110,
+                    "label": "NAD"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 134,
+                    "label": "Optoma"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 132,
+                    "label": "Philips"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 123,
+                    "label": "Pro-Ject"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 129,
+                    "label": "Samsung"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 124,
+                    "label": "Sennheiser"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 114,
+                    "label": "Sonos"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 133,
+                    "label": "Sony"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 126,
+                    "label": "SOUNDBOKS"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 128,
+                    "label": "SOWA"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 130,
+                    "label": "Steinway Lyngdorf"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 668,
+                    "label": "test"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 7,
+                    "label": "Closed"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 125,
+                    "label": "Vestlyd"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 111,
+                    "label": "Argon Audio"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 113,
+                    "label": "AudioQuest"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 122,
+                    "label": "Bang & Olufsen"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 116,
+                    "label": "Bluesound"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 120,
+                    "label": "Bowers & Wilkins"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 119,
+                    "label": "BURSON AUDIO"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 118,
+                    "label": "Cyp"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 121,
+                    "label": "DALI"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 112,
+                    "label": "Denon"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 135,
+                    "label": "Epson"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 136,
+                    "label": "Euroscreen"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 117,
+                    "label": "HEGEL"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 127,
+                    "label": "LEMUS"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 115,
+                    "label": "Lyngdorf"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 131,
+                    "label": "MoFi Electronics"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 110,
+                    "label": "NAD"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 134,
+                    "label": "Optoma"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 132,
+                    "label": "Philips"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 123,
+                    "label": "Pro-Ject"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 129,
+                    "label": "Samsung"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 4,
+                    "label": "Open"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 124,
+                    "label": "Sennheiser"
+                },
+                "tot_count": 0,
+                "entries": []
+            },
+            {
+                "swimlane": {
+                    "field": "sys_status",
+                    "key": 692,
+                    "label": "Pending2"
+                },
+                "column": {
+                    "field": "brand",
+                    "key": 113,
+                    "label": "AudioQuest"
+                },
+                "tot_count": 3,
+                "entries": [
+                    {
+                        "id": 1,
+                        "group": {
+                            "id": 2,
+                            "label": "Support"
+                        },
+                        "assignee": {
+                            "id": 662543,
+                            "label": "Demo Deskhero"
+                        },
+                        "requester": {
+                            "user_id": 662703,
+                            "email": "rebecca.williams@alavjo.com",
+                            "name": "Rebecca Williams"
+                        },
+                        "created": "2023-08-04T08:02:56.9756639Z",
+                        "created_by": {
+                            "id": 662543,
+                            "label": "Demo Deskhero"
+                        },
+                        "last_updated": "2023-10-18T12:54:40.4571759Z",
+                        "last_updated_by": {
+                            "id": 1010,
+                            "label": "Gabriel Rodrigues"
+                        },
+                        "custom_sort": "0|hzzzzz:",
+                        "brand": {
+                            "id": 113,
+                            "label": "AudioQuest"
+                        },
+                        "product_category": {
+                            "id": 71,
+                            "label": "Integrated Amplifier"
+                        },
+                        "sys_content_rich": {
+                            "plain_preview": "Hey there,\nI just bought a Denon PMA-A110, and I’m trying to connect my Windows PC to it through the...",
+                            "html": null,
+                            "editorjs": {
+                                "time": 1690967779057,
+                                "version": "2.26.5",
+                                "blocks": [
+                                    {
+                                        "id": "_ksRtWgOPc",
+                                        "type": "paragraph",
+                                        "data": {
+                                            "text": "Hey there,"
+                                        }
+                                    },
+                                    {
+                                        "id": "89O1CWYsXv",
+                                        "type": "paragraph",
+                                        "data": {
+                                            "text": "I just bought a Denon PMA-A110, and I’m trying to connect my Windows PC to it through the USB-DAC port. I’ve got the right cable and everything, but it just won't work. What am I missing here? Thanks!"
+                                        }
+                                    }
+                                ]
+                            },
+                            "read_minutes": 1
+                        },
+                        "sys_priority": {
+                            "id": 10,
+                            "label": "High"
+                        },
+                        "sys_status": {
+                            "id": 692,
+                            "label": "Pending2"
+                        },
+                        "sys_subject": "Can't get my PC to connect to my Denon PMA-A110. Help!",
+                        "suggested_reply_status": "UNKNOWN"
+                    },
+                    {
+                        "id": 2,
+                        "group": {
+                            "id": 2,
+                            "label": "Support"
+                        },
+                        "assignee": null,
+                        "requester": {
+                            "user_id": 662961,
+                            "email": "david.thompson@alavjo.com",
+                            "name": "David Thompson"
+                        },
+                        "created": "2023-08-04T08:02:56.9766639Z",
+                        "created_by": {
+                            "id": 662543,
+                            "label": "Demo Deskhero"
+                        },
+                        "last_updated": "2023-10-18T12:54:41.935",
+                        "last_updated_by": {
+                            "id": 1010,
+                            "label": "Gabriel Rodrigues"
+                        },
+                        "custom_sort": "0|i00007:",
+                        "brand": {
+                            "id": 113,
+                            "label": "AudioQuest"
+                        },
+                        "price": 12.0,
+                        "product_category": {
+                            "id": 71,
+                            "label": "Integrated Amplifier"
+                        },
+                        "sys_content_rich": {
+                            "plain_preview": "Hey,\nI’m trying to use the NAD Remote App with my NAD C368, but I can’t seem to get the Bluetooth to...",
+                            "html": null,
+                            "editorjs": {
+                                "time": 0,
+                                "version": null,
+                                "blocks": [
+                                    {
+                                        "id": "sS5dM38N1J",
+                                        "type": "paragraph",
+                                        "data": {
+                                            "text": "Hey,"
+                                        }
+                                    },
+                                    {
+                                        "id": "_FJWTQAYUV",
+                                        "type": "paragraph",
+                                        "data": {
+                                            "text": "I’m trying to use the NAD Remote App with my NAD C368, but I can’t seem to get the Bluetooth to work. I've got the antenna installed and everything. Could you help me out?"
+                                        }
+                                    }
+                                ]
+                            },
+                            "read_minutes": 1
+                        },
+                        "sys_priority": {
+                            "id": 10,
+                            "label": "High"
+                        },
+                        "sys_status": {
+                            "id": 692,
+                            "label": "Pending2"
+                        },
+                        "sys_subject": "How do I set up Bluetooth on my NAD C368? I'm stuck!",
+                        "suggested_reply_status": "UNKNOWN"
+                    },
+                    {
+                        "id": 3,
+                        "group": {
+                            "id": 2,
+                            "label": "Support"
+                        },
+                        "assignee": null,
+                        "requester": {
+                            "user_id": 663160,
+                            "email": "emily.robinson@alavjo.com",
+                            "name": "Emily Robinson"
+                        },
+                        "created": "2023-08-04T08:02:56.9776639Z",
+                        "created_by": {
+                            "id": 662543,
+                            "label": "Demo Deskhero"
+                        },
+                        "last_updated": "2023-10-18T12:54:42.783",
+                        "last_updated_by": {
+                            "id": 1010,
+                            "label": "Gabriel Rodrigues"
+                        },
+                        "custom_sort": "0|i0000f:",
+                        "brand": {
+                            "id": 113,
+                            "label": "AudioQuest"
+                        },
+                        "product_category": {
+                            "id": 71,
+                            "label": "Integrated Amplifier"
+                        },
+                        "sys_content_rich": {
+                            "plain_preview": "Hello,\nI just got a C 389, and I'm trying to figure out this Bluetooth Mode thing. What's the difference...",
+                            "html": null,
+                            "editorjs": {
+                                "time": 1690966233734,
+                                "version": "2.26.5",
+                                "blocks": [
+                                    {
+                                        "id": "oNyuv6JeIx",
+                                        "type": "paragraph",
+                                        "data": {
+                                            "text": "Hello,"
+                                        }
+                                    },
+                                    {
+                                        "id": "SoF-qPUF6Z",
+                                        "type": "paragraph",
+                                        "data": {
+                                            "text": "I just got a C 389, and I'm trying to figure out this Bluetooth Mode thing. What's the difference between Sink and Source? I'm lost. Please help!"
+                                        }
+                                    }
+                                ]
+                            },
+                            "read_minutes": 1
+                        },
+                        "sys_priority": {
+                            "id": 8,
+                            "label": "Low"
+                        },
+                        "sys_status": {
+                            "id": 692,
+                            "label": "Pending2"
+                        },
+                        "sys_subject": "I need help with Bluetooth on my C389. What's this sink thing?",
+                        "suggested_reply_status": "UNKNOWN"
+                    }
+                ]
+            }
+        ]
+    },
+    "validation_error": null,
+    "message": null
+}

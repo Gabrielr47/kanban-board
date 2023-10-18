@@ -1,0 +1,44 @@
+.kanban {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 90vh;
+  overflow-y: auto;
+
+  .kanban-swimlane {
+    display: flex;
+    flex-direction: column;
+
+    .kanban-swimlane-header {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+
+    .kanban-header {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+
+      background-color: rgb(231 238 247);
+      border-radius: 8px;
+      padding: 0.5rem;
+    }
+
+    .kanban-body {
+      height: 100%;
+      min-height: 10rem;
+    }
+  }
+
+}
+
+.ghost {
+  opacity: 0.5;
+  background: #c8ebfb;
+  border-radius: 8px;
+}
