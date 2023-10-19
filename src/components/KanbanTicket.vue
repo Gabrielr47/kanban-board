@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { computed, PropType } from 'vue'
+import { computed, type PropType } from 'vue'
 import draggable from 'vuedraggable'
 
 const props = defineProps({
   column: {
-    type: Object,
+    type: Object as PropType<any>,
     required: true
   },
   swimlane: {
@@ -26,7 +26,6 @@ const tickets = computed(() => {
   })
   return group?.entries || []
 })
-
 </script>
 <template>
   <div class="column">
@@ -38,10 +37,10 @@ const tickets = computed(() => {
       ghost-class="ghost"
     >
       <template #item="{ element }">
-          <div class="ticket">
-            <strong>{{ element.id }}</strong>
-            <p>{{ element.sys_subject }}</p>
-          </div>
+        <div class="ticket">
+          <strong>{{ element.id }}</strong>
+          <p>{{ element.sys_subject }}</p>
+        </div>
       </template>
     </draggable>
   </div>

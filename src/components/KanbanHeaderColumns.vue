@@ -1,16 +1,15 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref } from 'vue'
 import draggable from 'vuedraggable'
 
 const props = defineProps({
   columns: {
     type: Array,
     required: true
-  },
-});
+  }
+})
 
-const columnsLength = ref(props.columns?.length);
-
+const columnsLength = ref(props.columns?.length)
 </script>
 <template>
   <draggable

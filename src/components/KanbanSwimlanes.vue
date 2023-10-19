@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import draggable from 'vuedraggable'
 import KanbanBodyColumns from './KanbanBodyColumns.vue'
+import { type PropType } from 'vue'
 
 defineProps({
   swimlanes: {
@@ -12,14 +13,20 @@ defineProps({
     required: true
   },
   groups: {
-    type: Array,
+    type: Array as PropType<Record<string, any>[]>,
     required: true
   }
 })
 </script>
 
 <template>
-  <draggable :list="swimlanes" group="swimlanes"  handle=".handle" item-key="key" ghost-class="ghost">
+  <draggable
+    :list="swimlanes"
+    group="swimlanes"
+    handle=".handle"
+    item-key="key"
+    ghost-class="ghost"
+  >
     <template #item="{ element }">
       <div class="kanban-swimlane" :data-swimlane="element.key">
         <div class="kanban-swimlane-header">

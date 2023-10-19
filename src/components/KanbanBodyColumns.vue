@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, type PropType } from 'vue'
 import KanbanTicket from './KanbanTicket.vue'
 
 const props = defineProps({
@@ -12,13 +12,12 @@ const props = defineProps({
     required: true
   },
   groups: {
-    type: Array,
+    type: Array as PropType<Record<string, any>[]>,
     required: true
   }
 })
 
-const columnsLength = ref(props.columns?.length);
-
+const columnsLength = ref(props.columns?.length)
 </script>
 <template>
   <div class="columns">
