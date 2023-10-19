@@ -16,7 +16,7 @@ const columnsLength = ref(props.columns?.length);
   <draggable
     :list="columns"
     class="columns"
-    group="people"
+    group="header-columns"
     item-key="key"
     ghost-class="ghost"
   >

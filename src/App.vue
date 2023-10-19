@@ -6,13 +6,13 @@ import KanbanSwimlanes from './components/KanbanSwimlanes.vue';
 
 const headerColumns = ref(kanban?.data?.columns);
 const swimlanes = ref(kanban?.data?.swimlanes);
+const groups = ref(kanban?.data?.groups);
 
-console.log(kanban);
 </script>
 
 <template>
   <div class="kanban">
       <KanbanHeaderColumns :columns="headerColumns"/>
-      <KanbanSwimlanes :swimlanes="swimlanes"/>
+      <KanbanSwimlanes :swimlanes="swimlanes" :columns="headerColumns" :groups="groups"/>
   </div>
 </template>
